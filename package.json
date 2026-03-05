@@ -1,6 +1,6 @@
 {
 	"name": "@sasikumart/compression-instrumentation",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "OpenTelemetry instrumentation for Node.js zlib to measure gzip compression latency and performance.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
