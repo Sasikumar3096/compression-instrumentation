@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Coverage
+coverage/
+
+# Logs
+logs/
+*.log
+
+# Misc
+*.tgz
+*.swp
+*.swo
