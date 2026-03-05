@@ -1,57 +1,57 @@
 {
-  "name": "@sasikumart/compression-instrumentation",
-  "version": "1.0.1",
-  "description": "OpenTelemetry instrumentation for Node.js zlib to measure gzip compression latency and performance.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "tsc",
-    "test": "mocha -r ts-node/register test/**/*.test.ts",
-    "lint": "biome check .",
-    "lint:fix": "biome check . --apply",
-    "clean": "rm -rf dist",
-    "prepublishOnly": "npm run clean && npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://Sasikumar3096@github.com/Sasikumar3096/compression-instrumentation.git"
-  },
-  "keywords": [
-    "opentelemetry",
-    "otel",
-    "instrumentation",
-    "zlib",
-    "gzip",
-    "compression",
-    "nodejs",
-    "observability",
-    "tracing",
-    "performance",
-    "latency",
-    "monitoring",
-    "stream",
-    "middleware"
-  ],
-  "author": "SasiKumar Thangavel",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Sasikumar3096/compression-instrumentation/issues"
-  },
-  "homepage": "https://github.com/Sasikumar3096/compression-instrumentation#readme",
-  "devDependencies": {
-    "@biomejs/biome": "^2.4.5",
-    "@opentelemetry/context-async-hooks": "^2.6.0",
-    "@opentelemetry/sdk-trace-node": "^2.6.0",
-    "@types/mocha": "^10.0.10",
-    "mocha": "^11.7.5",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
-  },
-  "dependencies": {
-    "@opentelemetry/api": "^1.9.0",
-    "@opentelemetry/instrumentation": "^0.213.0"
-  }
+	"name": "@sasikumart/compression-instrumentation",
+	"version": "1.0.1",
+	"description": "OpenTelemetry instrumentation for Node.js zlib to measure gzip compression latency and performance.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsc",
+		"test": "mocha -r ts-node/register test/**/*.test.ts",
+		"lint": "biome check .",
+		"lint:fix": "biome check . --fix",
+		"clean": "rm -rf dist",
+		"prepublishOnly": "npm run clean && npm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://Sasikumar3096@github.com/Sasikumar3096/compression-instrumentation.git"
+	},
+	"keywords": [
+		"opentelemetry",
+		"otel",
+		"instrumentation",
+		"zlib",
+		"gzip",
+		"compression",
+		"nodejs",
+		"observability",
+		"tracing",
+		"performance",
+		"latency",
+		"monitoring",
+		"stream",
+		"middleware"
+	],
+	"author": "SasiKumar Thangavel",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Sasikumar3096/compression-instrumentation/issues"
+	},
+	"homepage": "https://github.com/Sasikumar3096/compression-instrumentation#readme",
+	"devDependencies": {
+		"@biomejs/biome": "^2.4.5",
+		"@opentelemetry/context-async-hooks": "^2.6.0",
+		"@opentelemetry/sdk-trace-node": "^2.6.0",
+		"@types/mocha": "^10.0.10",
+		"mocha": "^11.7.5",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.9.3"
+	},
+	"dependencies": {
+		"@opentelemetry/api": "^1.9.0",
+		"@opentelemetry/instrumentation": "^0.213.0"
+	}
 }
